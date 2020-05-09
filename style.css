@@ -1,0 +1,52 @@
+.marginBox {
+  margin-top: -150px;
+  position: relative;
+}
+.diagonalBox {
+  background-image: linear-gradient(-225deg,#473b7b 0%,#3584a7 51%,#30d2be 100%);
+  padding: 100px 0;
+  transform: skew(0deg, -4deg) translateY(-90px);
+  position: relative;
+}
+.smallRound {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  margin-left: 54%;
+  margin-top: -2%;
+}
+
+.blue {
+  background: -webkit-linear-gradient(-225deg,#473b7b 0%,#3584a7 51%,#30d2be 100%);
+}
+
+.avatarImg {
+  background: -webkit-linear-gradient(-225deg,#473b7b 0%,#3584a7 51%,#30d2be 100%);
+  width: 200px;
+  height: 200px;
+  border-radius: 1500px;
+  padding: 10px;
+}
+
+.showcase {
+  background-image: linear-gradient(-225deg,#473b7b 0%,#3584a7 51%,#30d2be 100%);
+  width: 111px;
+  padding: 12px;
+}
+
+.mybtn {
+  background: linear-gradient(-225deg, #473b7b 0%, #3584a7 51%,#30d2be 100%);
+  width: 111px;
+  padding: 12px;
+  color: white !important;
+  width: 200px;
+}
+
+@media only screen and (max-width: 768px) {
+  .marginBox {
+    margin-top: -150px;
+    margin-left: 25%;
+    position: absolute;
+  }
+}
